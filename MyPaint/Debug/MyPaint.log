@@ -1,0 +1,36 @@
+﻿Compilación iniciada a las 17/03/2017 08:55:57 a. m..
+     1>Proyecto "C:\Users\Kimberly\documents\visual studio 2013\Projects\MyPaint\MyPaint\MyPaint.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(41): warning C4305: 'inicializando' : truncamiento de 'double' a 'GLfloat'
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(190): warning C4244: '=' : conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(191): warning C4244: '=' : conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(196): warning C4244: '=' : conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(201): warning C4244: '=' : conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(202): warning C4244: '=' : conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(208): warning C4805: '==' : combinación no segura del tipo 'GLboolean' y el tipo 'bool' en la operación
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(214): warning C4244: '=' : conversión de 'double' a 'GLint'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(218): warning C4244: '=' : conversión de 'double' a 'GLint'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(222): warning C4244: '=' : conversión de 'double' a 'GLint'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(226): warning C4244: '=' : conversión de 'double' a 'GLint'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(228): warning C4244: '=' : conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(229): warning C4244: '=' : conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(232): warning C4805: '==' : combinación no segura del tipo 'GLboolean' y el tipo 'bool' en la operación
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(236): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(239): warning C4805: '==' : combinación no segura del tipo 'GLboolean' y el tipo 'bool' en la operación
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(243): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\kimberly\documents\visual studio 2013\projects\mypaint\mypaint\main.cpp(244): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kimberly\documents\visual studio 2013\Projects\MyPaint\Debug\MyPaint.exe" /INCREMENTAL /NOLOGO freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kimberly\documents\visual studio 2013\Projects\MyPaint\Debug\MyPaint.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kimberly\documents\visual studio 2013\Projects\MyPaint\Debug\MyPaint.lib" /MACHINE:X86 Debug\box_gl.obj
+         Debug\main.obj
+         Debug\object_gl.obj
+         Debug\polygon_gl.obj
+         Debug\quad_gl.obj
+         Debug\triangle_gl.obj
+         MyPaint.vcxproj -> C:\Users\Kimberly\documents\visual studio 2013\Projects\MyPaint\Debug\MyPaint.exe
+     1>Compilación del proyecto terminada "C:\Users\Kimberly\documents\visual studio 2013\Projects\MyPaint\MyPaint\MyPaint.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:02.61
